@@ -1,0 +1,105 @@
+body {
+  background-image: url("assets/fondopagina.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*Index*/
+.navbar ul li a:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  opacity: 0.5;
+}
+
+#carouselExampleControls {
+  width: 40rem;
+  margin: auto;
+}
+
+#carouselExampleControls img {
+  height: 25rem;
+}
+
+section tr:hover td {
+  color: #eb9616;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+  font-size: 110%;
+  font-weight: bolder;
+}
+
+.parralax {
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-image: url("assets/parralax.jpg");
+  background-attachment: fixed;
+}
+
+.parralax h3 {
+  text-decoration: underline;
+}
+
+.tablaInd {
+  text-align: left;
+  border: solid 0.1rem grey;
+  width: 40rem;
+}
+
+.nav-item, .dropdown-item {
+  font-size: 1.2rem;
+  padding-left: 2rem;
+}
+
+/*seguridad*/
+.subtituloseg {
+  padding: 2rem 0rem 1rem 0rem;
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+.tablaSeg {
+  text-align: left;
+  border: solid 0.1rem grey;
+  width: 40rem;
+}
+
+/*contactos*/
+.tablaCon {
+  text-align: center;
+  border: solid 0.1rem grey;
+  width: 27.1rem;
+  background-color: white;
+}
+
+form {
+  text-align: center;
+  border: solid 0.1rem grey;
+  width: 27rem;
+  height: 25.14rem;
+  padding: 1rem;
+  background-color: #EEEEEE;
+}
+
+form legend {
+  font-weight: bolder;
+  padding: 0%;
+}
+
+.tableCon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3rem;
+}
+/*# sourceMappingURL=styles.css.map */
